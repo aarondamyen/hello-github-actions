@@ -1,7 +1,7 @@
 name: A workflow for my Hello World file
 on: push
 
-job:
+jobs:
   build:
     name: Hello world action
     runs-on: ubuntu-latest
@@ -10,4 +10,3 @@ job:
     - uses: ./action-a
       env:
         MY_NAME: "Mona"
-        
